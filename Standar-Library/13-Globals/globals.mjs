@@ -1,0 +1,8 @@
+// Di dalam NodeJS, terdapat library berupa variable atau function yang secara global bisa diakses dimana saja, tanpa harus melakukan import
+// Kita bisa melihat detail apa saja fitur yang terdapat secara global di halaman dokumentasinya
+// https://nodejs.org/dist/latest-v16.x/docs/api/globals.html 
+
+
+setTimeout( () => {
+    console.info("hello Globals")
+}, 2000)
